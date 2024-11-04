@@ -11,3 +11,7 @@ jspd = -5.25;
 
 current_jumps = 0;
 max_jumps = 2;
+
+// Climbing
+climbing = false;
+climb_spd = 1;
