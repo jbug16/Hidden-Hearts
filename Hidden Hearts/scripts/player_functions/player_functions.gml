@@ -6,5 +6,4 @@ function getControls()
 	
 	// Action Inputs
 	jump_key_pressed = keyboard_check_pressed(vk_space);
-
 }
