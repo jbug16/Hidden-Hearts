@@ -34,6 +34,7 @@
   "resources":[
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oTrail","path":"objects/oTrail/oTrail.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"id":{"name":"player_functions","path":"scripts/player_functions/player_functions.yy",},},
