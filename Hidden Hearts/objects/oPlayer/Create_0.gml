@@ -1,5 +1,5 @@
 // Moving
-move_spd = 1.5;
+move_spd = 1;
 move_dir = 0;
 xspd = 0;
 yspd = 0;
