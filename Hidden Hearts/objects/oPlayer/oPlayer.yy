@@ -34,6 +34,9 @@
     "name":"sPlayerIdle",
     "path":"sprites/sPlayerIdle/sPlayerIdle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sPlayerIdle",
+    "path":"sprites/sPlayerIdle/sPlayerIdle.yy",
+  },
   "visible":true,
 }

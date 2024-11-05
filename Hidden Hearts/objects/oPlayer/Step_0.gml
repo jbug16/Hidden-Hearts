@@ -61,13 +61,14 @@ switch (state)
 	
 		// Set Sprites
 		setSpriteDirection();
-		sprite_index = sPlayerIdle;
+		sprite_index = sPlayerFall;
 	
 		// Switch States
         if (isDashing()) state = STATE.DASH;
 		else if (isJumping()) state = STATE.JUMP;
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
+		else if (isWalking()) state = STATE.WALK;
         
         playerMovement();
         s("fall");
@@ -78,7 +79,7 @@ switch (state)
 	
 		// Set Sprites
 		setSpriteDirection();
-		sprite_index = sPlayerIdle;
+		sprite_index = sPlayerDash;
 	
 		playerMovement();
         
@@ -92,7 +93,7 @@ switch (state)
 		
 		// Set Sprites
 		setSpriteDirection();
-		sprite_index = sPlayerIdle;
+		sprite_index = sPlayerClimb;
 	
 		// Climbing
 		if (up_key)
