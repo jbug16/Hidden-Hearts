@@ -6,6 +6,10 @@ switch (state)
 {
     case STATE.IDLE:
 	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
+	
 		// Switch States
         if (isDashing()) state = STATE.DASH;
         else if (isJumping()) state = STATE.JUMP;
@@ -19,6 +23,10 @@ switch (state)
     break;
 
     case STATE.WALK:
+	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerWalk;
 	
 		// Switch States
         if (isDashing()) state = STATE.DASH;
@@ -34,6 +42,10 @@ switch (state)
 
     case STATE.JUMP:
 	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerJump;
+	
 		// Switch States
         if (isDashing()) state = STATE.DASH;
         else if (isFalling()) state = STATE.FALL;
@@ -46,6 +58,10 @@ switch (state)
     break;
 
     case STATE.FALL:
+	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
 	
 		// Switch States
         if (isDashing()) state = STATE.DASH;
@@ -60,6 +76,10 @@ switch (state)
 
     case STATE.DASH:
 	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
+	
 		playerMovement();
         
 		// Switch States
@@ -69,6 +89,11 @@ switch (state)
     break;
 	
 	case STATE.CLIMB:
+		
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
+	
 		// Climbing
 		if (up_key)
 		{

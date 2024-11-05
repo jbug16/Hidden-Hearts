@@ -127,3 +127,12 @@ function isDead()
 {
 	return false;
 }
+
+// Sprites
+function setSpriteDirection()
+{
+	if (move_dir != 0) 
+	{
+		image_xscale = move_dir;
+	}
+}
