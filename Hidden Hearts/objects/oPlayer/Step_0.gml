@@ -1,14 +1,75 @@
 // Get Controls
 getControls();
 
-// Climbing
-climbing = false;
-if (climb_key)
+// State Machine
+switch (state)
 {
-	if (place_meeting(x + 4, y, oWall) || place_meeting(x - 4, y, oWall))
-	{
-		climbing = true;
-			
+    case STATE.IDLE:
+	
+		// Switch States
+        if (isDashing()) state = STATE.DASH;
+        else if (isJumping()) state = STATE.JUMP;
+        else if (isFalling()) state = STATE.FALL;
+        else if (isWalking()) state = STATE.WALK;
+		else if (isClimbing()) state = STATE.CLIMB;
+        
+        playerMovement();
+        s("idle");
+		
+    break;
+
+    case STATE.WALK:
+	
+		// Switch States
+        if (isDashing()) state = STATE.DASH;
+        else if (isJumping()) state = STATE.JUMP;
+        else if (isFalling()) state = STATE.FALL;
+        else if (isIdle()) state = STATE.IDLE;
+		else if (isClimbing()) state = STATE.CLIMB;
+
+        playerMovement();
+        s("walk");
+		
+    break;
+
+    case STATE.JUMP:
+	
+		// Switch States
+        if (isDashing()) state = STATE.DASH;
+        else if (isFalling()) state = STATE.FALL;
+        else if (isIdle()) state = STATE.IDLE;
+		else if (isClimbing()) state = STATE.CLIMB;
+        
+        playerMovement();
+        s("jump");
+		
+    break;
+
+    case STATE.FALL:
+	
+		// Switch States
+        if (isDashing()) state = STATE.DASH;
+		else if (isJumping()) state = STATE.JUMP;
+        else if (isIdle()) state = STATE.IDLE;
+		else if (isClimbing()) state = STATE.CLIMB;
+        
+        playerMovement();
+        s("fall");
+		
+    break;
+
+    case STATE.DASH:
+	
+		playerMovement();
+        
+		// Switch States
+        if (isIdle()) state = STATE.IDLE;
+        
+        s("dash");
+    break;
+	
+	case STATE.CLIMB:
+		// Climbing
 		if (up_key)
 		{
 			// Check if there is another wall above
@@ -27,10 +88,24 @@ if (climb_key)
 				else while (!place_meeting(x, y + 1, oWall)) y += 1;
 			}
 		}
-	}
-}
-
-if (!climbing)
-{
-	state();
+		
+		// Switch States
+		if (!isClimbing()) state = STATE.NONE;
+		
+	    s("climb");
+	break;
+	
+	case STATE.NONE:
+	
+		// Switch States
+		if (isIdle()) state = STATE.IDLE;
+		else if (isDashing()) state = STATE.DASH;
+		else if (isFalling()) state = STATE.FALL;
+        else if (isJumping()) state = STATE.JUMP;
+        else if (isWalking()) state = STATE.WALK;
+		else if (isClimbing()) state = STATE.CLIMB;
+        
+        playerMovement();
+		s("none");
+	break;
 }
