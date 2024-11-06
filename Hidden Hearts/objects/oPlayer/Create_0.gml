@@ -26,6 +26,7 @@ enum STATE
 	DASH,
 	CLIMB,
 	DEAD,
+	INTERACTING,
 	NONE
 }
 

@@ -16,6 +16,7 @@ switch (state)
         else if (isFalling()) state = STATE.FALL;
         else if (isWalking()) state = STATE.WALK;
 		else if (isClimbing()) state = STATE.CLIMB;
+		else if (isInteracting()) state = STATE.INTERACTING;
         
         playerMovement();
         s("idle");
@@ -34,6 +35,7 @@ switch (state)
         else if (isFalling()) state = STATE.FALL;
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
+		else if (isInteracting()) state = STATE.INTERACTING;
 
         playerMovement();
         s("walk");
@@ -119,6 +121,19 @@ switch (state)
 		if (!isClimbing()) state = STATE.NONE;
 		
 	    s("climb");
+	break;
+	
+	case STATE.INTERACTING:
+	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
+		
+		// Switch States
+		if (interaction_key_pressed) state = STATE.IDLE;
+		
+		s("interacting");
+		
 	break;
 	
 	case STATE.NONE:

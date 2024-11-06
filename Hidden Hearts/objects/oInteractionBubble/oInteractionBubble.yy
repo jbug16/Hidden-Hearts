@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oInteractable",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oInteractionBubble",
+  "eventList":[],
   "managed":true,
-  "name":"oInteractable",
+  "name":"oInteractionBubble",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sInteractionBubble",
+    "path":"sprites/sInteractionBubble/sInteractionBubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

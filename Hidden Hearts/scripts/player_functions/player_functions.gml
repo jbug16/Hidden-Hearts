@@ -11,6 +11,7 @@ function getControls()
 	jump_key_pressed = keyboard_check_pressed(vk_space);
 	climb_key = keyboard_check(ord("Q"));
 	dash_key_pressed = keyboard_check_pressed(vk_shift);
+	interaction_key_pressed = keyboard_check_pressed(ord("E"));
 }
 
 // Collision
@@ -126,6 +127,11 @@ function isDashing()
 function isDead()
 {
 	return false;
+}
+
+function isInteracting()
+{
+	return interaction_key_pressed && abs(oInteractable.x - oPlayer.x) < 32;
 }
 
 // Sprites
