@@ -6,8 +6,8 @@
   "name":"oInteractionBubble",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interactions",
+    "path":"folders/Objects/Interactions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oInteractable",
+  "%Name":"oDialogBox",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oInteractable",
+  "name":"oDialogBox",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactions",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sNoteBackground",
+    "path":"sprites/sNoteBackground/sNoteBackground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

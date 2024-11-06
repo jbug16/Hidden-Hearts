@@ -129,8 +129,15 @@ switch (state)
 		setSpriteDirection();
 		sprite_index = sPlayerIdle;
 		
+		// Set variable for draw event
+		dialog_open = true;
+		
 		// Switch States
-		if (interaction_key_pressed) state = STATE.IDLE;
+		if (interaction_key_pressed) 
+		{
+			dialog_open = false;
+			state = STATE.IDLE;
+		}
 		
 		s("interacting");
 		

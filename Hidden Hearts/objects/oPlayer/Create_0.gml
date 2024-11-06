@@ -16,6 +16,9 @@ max_jumps = 2;
 climbing = false;
 climb_spd = 1;
 
+// Interactions
+dialog_open = false;
+
 // States
 enum STATE
 {
