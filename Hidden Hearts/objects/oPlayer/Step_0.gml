@@ -19,7 +19,6 @@ switch (state)
 		else if (isInteracting()) state = STATE.INTERACTING;
         
         playerMovement();
-        s("idle");
 		
     break;
 
@@ -38,7 +37,6 @@ switch (state)
 		else if (isInteracting()) state = STATE.INTERACTING;
 
         playerMovement();
-        s("walk");
 		
     break;
 
@@ -55,7 +53,6 @@ switch (state)
 		else if (isClimbing()) state = STATE.CLIMB;
         
         playerMovement();
-        s("jump");
 		
     break;
 
@@ -73,7 +70,6 @@ switch (state)
 		else if (isWalking()) state = STATE.WALK;
         
         playerMovement();
-        s("fall");
 		
     break;
 
@@ -83,12 +79,11 @@ switch (state)
 		setSpriteDirection();
 		sprite_index = sPlayerDash;
 	
-		playerMovement();
-        
 		// Switch States
         if (isIdle()) state = STATE.IDLE;
-        
-        s("dash");
+		
+		playerMovement();
+
     break;
 	
 	case STATE.CLIMB:
@@ -120,7 +115,6 @@ switch (state)
 		// Switch States
 		if (!isClimbing()) state = STATE.NONE;
 		
-	    s("climb");
 	break;
 	
 	case STATE.INTERACTING:
@@ -139,8 +133,6 @@ switch (state)
 			state = STATE.IDLE;
 		}
 		
-		s("interacting");
-		
 	break;
 	
 	case STATE.NONE:
@@ -154,6 +146,6 @@ switch (state)
 		else if (isClimbing()) state = STATE.CLIMB;
         
         playerMovement();
-		s("none");
+		
 	break;
 }
