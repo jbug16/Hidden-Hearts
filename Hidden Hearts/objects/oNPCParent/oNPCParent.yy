@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDialogBox",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oNPCParent",
+  "eventList":[],
   "managed":true,
-  "name":"oDialogBox",
+  "name":"oNPCParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactions",
-    "path":"folders/Objects/Interactions.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sNoteBackground",
-    "path":"sprites/sNoteBackground/sNoteBackground.yy",
+    "name":"sNPC1",
+    "path":"sprites/sNPC1/sNPC1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

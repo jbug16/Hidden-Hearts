@@ -131,7 +131,7 @@ function isDead()
 
 function isInteracting()
 {
-	return interaction_key_pressed && abs(oInteractable.x - oPlayer.x) < 32;
+	return interaction_key_pressed && abs(self.x - oPlayer.x) < 32;
 }
 
 // Sprites

@@ -1,0 +1,1 @@
+if (oPlayer.state == STATE.INTERACTING) dialog_open = true;
