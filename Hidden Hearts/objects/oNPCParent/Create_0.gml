@@ -4,3 +4,4 @@ text = ["TEXT TEST 1234!!",
 		"and now the third."];
 text_index = 0;
 next_btn = vk_space;
+dialog_open = false;

@@ -40,9 +40,7 @@
   "resources":[
     {"id":{"name":"fntUI","path":"fonts/fntUI/fntUI.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
-    {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
-    {"id":{"name":"oInteractionBubble","path":"objects/oInteractionBubble/oInteractionBubble.yy",},},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSecretNote","path":"objects/oSecretNote/oSecretNote.yy",},},
