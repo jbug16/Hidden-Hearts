@@ -1,3 +1,7 @@
-dialog_open = false;
+/// @description Insert description here
+// You can write your code in this editor
 
-note_text = ["You are not alone; your true self is worth celebrating.", "Your heart knows the way—trust it.", "Every secret kept is a burden—let them go."];
+// Inherit the parent event
+event_inherited();
+
+text = ["This is a note."];

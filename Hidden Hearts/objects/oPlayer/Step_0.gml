@@ -123,13 +123,6 @@ switch (state)
 		setSpriteDirection();
 		sprite_index = sPlayerIdle;
 		
-		// Switch States
-		if (interaction_key_pressed) 
-		{
-			oSecretNote.dialog_open = false;
-			state = STATE.IDLE;
-		}
-		
 	break;
 	
 	case STATE.NONE:

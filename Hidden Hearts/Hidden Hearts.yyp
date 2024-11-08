@@ -41,6 +41,7 @@
     {"id":{"name":"fntUI","path":"fonts/fntUI/fntUI.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
+    {"id":{"name":"oInteractableParent","path":"objects/oInteractableParent/oInteractableParent.yy",},},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSecretNote","path":"objects/oSecretNote/oSecretNote.yy",},},

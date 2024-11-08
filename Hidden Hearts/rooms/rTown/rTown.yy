@@ -12,7 +12,7 @@
     {"name":"inst_6E44B1E2","path":"rooms/rTown/rTown.yy",},
     {"name":"inst_7CD32D4F","path":"rooms/rTown/rTown.yy",},
     {"name":"inst_47C8CA15","path":"rooms/rTown/rTown.yy",},
-    {"name":"inst_4F38DC19","path":"rooms/rTown/rTown.yy",},
+    {"name":"inst_4B859203","path":"rooms/rTown/rTown.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -107,7 +107,7 @@
             {"$GMRInstance":"v1","%Name":"inst_88C50E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_88C50E5","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":240.0,},
           ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"NPCs","depth":700,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-            {"$GMRInstance":"v1","%Name":"inst_4F38DC19","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F38DC19","objectId":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":224.0,},
+            {"$GMRInstance":"v1","%Name":"inst_4B859203","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B859203","objectId":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":232.0,},
           ],"layers":[],"name":"NPCs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Managers","depth":800,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v1","%Name":"inst_45233966_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45233966_1","objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-16.0,},
