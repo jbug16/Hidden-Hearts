@@ -2,6 +2,7 @@ function initProperties()
 {
 	// Bool
 	is_interacting = false;
+	can_interact = false;
 	
 	// Text
 	text_index = 0;

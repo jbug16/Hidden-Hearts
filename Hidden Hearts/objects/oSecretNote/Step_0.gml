@@ -1,8 +1,12 @@
+// Check if player can interact
+if (oPlayer.state == STATE.IDLE or oPlayer.state == STATE.WALK) can_interact = true;
+else can_interact = false;
+
 // Check if player is near NPC
 if (abs(self.x - oPlayer.x) < 32)
 {
 	// Check for interaction button pressed and player is not already interacting
-	if (keyboard_check_pressed(ord("E")) and !is_interacting)
+	if (keyboard_check_pressed(ord("E")) and can_interact and !is_interacting)
 	{
 		text_index = 0;
 		is_interacting = true;
