@@ -1,6 +1,6 @@
 if (not surface_exists(surf)) 
 {
-	surf = surface_create(display_get_gui_width(), display_get_gui_height());    
+	surf = surface_create(cam_start_x, cam_start_y);    
 }
 
 surface_set_target(surf)

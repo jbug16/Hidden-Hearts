@@ -11,13 +11,13 @@ switch (state)
 		sprite_index = sPlayerIdle;
 	
 		// Switch States
+		if (isTransitioning()) break;
         if (isDashing()) state = STATE.DASH;
         else if (isJumping()) state = STATE.JUMP;
         else if (isFalling()) state = STATE.FALL;
         else if (isWalking()) state = STATE.WALK;
 		else if (isClimbing()) state = STATE.CLIMB;
 		else if (isInteracting()) state = STATE.INTERACTING;
-		else if (isTransitioning()) state = STATE.TRANSITIONING;
         
         playerMovement();
 		
@@ -36,7 +36,6 @@ switch (state)
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
 		else if (isInteracting()) state = STATE.INTERACTING;
-		else if (isTransitioning()) state = STATE.TRANSITIONING;
 
         playerMovement();
 		
@@ -53,7 +52,6 @@ switch (state)
         else if (isFalling()) state = STATE.FALL;
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
-		else if (isTransitioning()) state = STATE.TRANSITIONING;
         
         playerMovement();
 		
@@ -154,17 +152,6 @@ switch (state)
 		if (_success) {
 		    state = STATE.NONE;
 		}
-	
-	break;
-	
-	case STATE.TRANSITIONING:
-	
-		// Set Sprites
-		setSpriteDirection();
-		sprite_index = sPlayerIdle;
-		
-		// Switch States
-		if (!instance_exists(oTransition)) state = STATE.NONE;
 	
 	break;
 	
