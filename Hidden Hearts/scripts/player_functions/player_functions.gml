@@ -131,7 +131,22 @@ function isDead()
 
 function isInteracting()
 {
-	return interaction_key_pressed && abs(self.x - oPlayer.x) < 32;
+	with (oNPCParent) {
+        if (is_interacting)
+            return true;
+    }
+
+    with (oSecretNote) {
+        if (is_interacting)
+            return true;
+    }
+
+    return false;
+}
+
+function isTransitioning()
+{
+	return instance_exists(oTransition);
 }
 
 // Sprites

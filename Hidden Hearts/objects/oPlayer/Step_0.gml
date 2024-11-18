@@ -17,6 +17,7 @@ switch (state)
         else if (isWalking()) state = STATE.WALK;
 		else if (isClimbing()) state = STATE.CLIMB;
 		else if (isInteracting()) state = STATE.INTERACTING;
+		else if (isTransitioning()) state = STATE.TRANSITIONING;
         
         playerMovement();
 		
@@ -35,6 +36,7 @@ switch (state)
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
 		else if (isInteracting()) state = STATE.INTERACTING;
+		else if (isTransitioning()) state = STATE.TRANSITIONING;
 
         playerMovement();
 		
@@ -51,6 +53,7 @@ switch (state)
         else if (isFalling()) state = STATE.FALL;
         else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
+		else if (isTransitioning()) state = STATE.TRANSITIONING;
         
         playerMovement();
 		
@@ -117,6 +120,13 @@ switch (state)
 		
 	break;
 	
+	case STATE.DEAD:
+	
+		instance_create_layer(x, y, "Player", oPlayerDead);
+		instance_destroy();
+	
+	break;
+	
 	case STATE.INTERACTING:
 	
 		// Set Sprites
@@ -124,12 +134,38 @@ switch (state)
 		sprite_index = sPlayerIdle;
 		
 		// Switch States
-		if (interaction_key_pressed) 
-		{
-			oSecretNote.dialog_open = false;
-			state = STATE.IDLE;
+		var _success = true;
+		with (oNPCParent) {
+		    if (is_interacting)
+			{
+		        _success = false;
+		        break;
+		    }
 		}
+
+		with (oSecretNote) {
+		    if (is_interacting)
+			{
+		        _success = false;
+		        break;
+		    }
+		}
+
+		if (_success) {
+		    state = STATE.NONE;
+		}
+	
+	break;
+	
+	case STATE.TRANSITIONING:
+	
+		// Set Sprites
+		setSpriteDirection();
+		sprite_index = sPlayerIdle;
 		
+		// Switch States
+		if (!instance_exists(oTransition)) state = STATE.NONE;
+	
 	break;
 	
 	case STATE.NONE:
