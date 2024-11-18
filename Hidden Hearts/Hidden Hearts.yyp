@@ -39,6 +39,7 @@
   "name":"Hidden Hearts",
   "resources":[
     {"id":{"name":"fntUI","path":"fonts/fntUI/fntUI.yy",},},
+    {"id":{"name":"oBouncePad","path":"objects/oBouncePad/oBouncePad.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oNPC1","path":"objects/oNPC1/oNPC1.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"npc_functions","path":"scripts/npc_functions/npc_functions.yy",},},
     {"id":{"name":"player_functions","path":"scripts/player_functions/player_functions.yy",},},
     {"id":{"name":"sBackgroundTileset","path":"sprites/sBackgroundTileset/sBackgroundTileset.yy",},},
+    {"id":{"name":"sBoucePad","path":"sprites/sBoucePad/sBoucePad.yy",},},
     {"id":{"name":"sCloud1","path":"sprites/sCloud1/sCloud1.yy",},},
     {"id":{"name":"sCloud2","path":"sprites/sCloud2/sCloud2.yy",},},
     {"id":{"name":"sDialogueBox","path":"sprites/sDialogueBox/sDialogueBox.yy",},},
@@ -86,8 +88,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rTownPlatform","path":"rooms/rTownPlatform/rTownPlatform.yy",},},
+    {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
