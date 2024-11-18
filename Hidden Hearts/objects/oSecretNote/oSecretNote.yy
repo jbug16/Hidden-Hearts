@@ -13,10 +13,7 @@
     "name":"Interactions",
     "path":"folders/Objects/Interactions.yy",
   },
-  "parentObjectId":{
-    "name":"oInteractableParent",
-    "path":"objects/oInteractableParent/oInteractableParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

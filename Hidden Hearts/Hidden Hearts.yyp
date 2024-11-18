@@ -41,6 +41,7 @@
     {"id":{"name":"fntUI","path":"fonts/fntUI/fntUI.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
+    {"id":{"name":"oNPC1","path":"objects/oNPC1/oNPC1.yy",},},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oPlayerDead","path":"objects/oPlayerDead/oPlayerDead.yy",},},
@@ -85,8 +86,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rTownPlatform","path":"rooms/rTownPlatform/rTownPlatform.yy",},},
     {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
+    {"roomId":{"name":"rTownPlatform","path":"rooms/rTownPlatform/rTownPlatform.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
