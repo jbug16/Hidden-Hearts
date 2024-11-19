@@ -1,6 +1,8 @@
 // Get Controls
 getControls();
 
+coyoteTime();
+
 // State Machine
 switch (state)
 {

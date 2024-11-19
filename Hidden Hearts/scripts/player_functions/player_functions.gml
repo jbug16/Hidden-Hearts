@@ -72,8 +72,9 @@ function yMovement()
 
 function jump()
 {
-	if (jump_key_pressed && current_jumps < max_jumps)
+	if (jump_key_pressed && current_jumps < max_jumps && coyote_time > 0)
 	{
+		coyote_time = 0;
 		yspd = jspd;
 		current_jumps++;
 	}
@@ -91,6 +92,24 @@ function playerMovement()
 	jump();
 	yCollision();
 	y += yspd;
+}
+
+function onGround()
+{
+	if (place_meeting(x, y + 1, oWall)) return true;
+	else return false;
+}
+
+function coyoteTime()
+{
+	if (coyote_time > 0) coyote_time--;
+		
+	if (onGround())
+	{
+		// If on the ground, reset the coyote time
+		coyote_time = coyote_time_max;
+	}
+
 }
 
 // States

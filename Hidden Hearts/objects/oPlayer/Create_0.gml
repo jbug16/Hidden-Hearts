@@ -1,5 +1,5 @@
 // Moving
-move_spd = 1;
+move_spd = 2;
 move_dir = 0;
 xspd = 0;
 yspd = 0;
@@ -10,7 +10,10 @@ term_vel = 4;
 jspd = -5.25;
 
 current_jumps = 0;
-max_jumps = 2;
+max_jumps = 1;
+
+coyote_time = 0;
+coyote_time_max = 3 * 60;
 
 // Climbing
 climbing = false;
