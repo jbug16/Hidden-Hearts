@@ -5,4 +5,4 @@
 global.shards_collected = 0;
 
 // Start transition
-instance_create_layer(x, y, "Transitions", oTransition);
+//instance_create_layer(x, y, "Transitions", oTransition);

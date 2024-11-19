@@ -1,8 +1,6 @@
 // Get Controls
 getControls();
 
-coyoteTime();
-
 // State Machine
 switch (state)
 {
@@ -50,10 +48,7 @@ switch (state)
 		sprite_index = sPlayerJump;
 	
 		// Switch States
-        if (isDashing()) state = STATE.DASH;
-        else if (isFalling()) state = STATE.FALL;
-        else if (isIdle()) state = STATE.IDLE;
-		else if (isClimbing()) state = STATE.CLIMB;
+        if (!isJumping()) state = STATE.NONE;
         
         playerMovement();
 		
@@ -66,11 +61,19 @@ switch (state)
 		sprite_index = sPlayerFall;
 	
 		// Switch States
-        if (isDashing()) state = STATE.DASH;
+		if (isIdle()) 
+		{
+			state = STATE.IDLE;
+			jump_count = 0;
+		}
+		else if (isWalking())
+		{
+			state = STATE.WALK;
+			jump_count = 0;
+		}
+        else if (isDashing()) state = STATE.DASH;
 		else if (isJumping()) state = STATE.JUMP;
-        else if (isIdle()) state = STATE.IDLE;
 		else if (isClimbing()) state = STATE.CLIMB;
-		else if (isWalking()) state = STATE.WALK;
         
         playerMovement();
 		

@@ -45,6 +45,9 @@ function yCollision()
 	
 		yspd = 0
 	}
+	
+	setOnGround();
+	
 }
 
 // Movement
@@ -56,37 +59,34 @@ function xMovement()
 
 function yMovement()
 {
+	// Gravity
 	yspd += grav;
-
-	// Cap falling speed
-	if (yspd > term_vel) yspd = term_vel;
 	
-	// Reset jumps
-	if (onGround()) current_jumps = 0;
+	// Jump
+	jump();
 }
 
 function jump()
 {
-	if (jump_key_pressed and onGround() and coyote_time > 0)
+	if (jump_key_pressed)
 	{
-		coyote_time = 0;
-		yspd = jspd;
-		s("ground jump");
-	}
-}
-
-function airJump()
-{
-	if (jump_key_pressed and !onGround() and current_jumps < max_jumps)
-	{
-		yspd = jspd;
-		current_jumps++;
-		s("air jump");
+		if (jump_count < max_jumps)
+		{
+			// do jump
+			yspd = jspd;
+			
+			jump_count++;
+			//s(jump_count);
+		}
 	}
 }
 
 function playerMovement()
 {
+	// Coyote time
+	if (coyote_time > 0) coyote_time--;
+	s(coyote_time);
+	
 	// X 
 	xMovement();
 	xCollision();
@@ -94,28 +94,13 @@ function playerMovement()
 
 	// Y
 	yMovement();
-	jump();
-	airJump();
 	yCollision();
 	y += yspd;
 }
 
-function onGround()
+function setOnGround()
 {
-	if (place_meeting(x, y + 1, oWall)) return true;
-	else return false;
-}
-
-function coyoteTime()
-{
-	if (coyote_time > 0) coyote_time--;
-		
-	if (onGround())
-	{
-		// If on the ground, reset the coyote time
-		coyote_time = coyote_time_max;
-	}
-
+	
 }
 
 // States
