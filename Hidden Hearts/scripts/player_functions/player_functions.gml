@@ -60,17 +60,18 @@ function yMovement()
 
 	// Cap falling speed
 	if (yspd > term_vel) yspd = term_vel;
-
-	// Reset jumps
-	if (place_meeting(x, y + 1, oWall)) 
-	{
-		current_jumps = 0;
-	}
-	// Count falling as a jump
-	else if (current_jumps == 0) current_jumps = 1;
 }
 
 function jump()
+{
+	if (jump_key_pressed and onGround() and coyote_time > 0)
+	{
+		coyote_time = 0;
+		yspd = jspd;
+	}
+}
+
+function airJump()
 {
 	if (jump_key_pressed && current_jumps < max_jumps && coyote_time > 0)
 	{
@@ -102,6 +103,7 @@ function onGround()
 
 function coyoteTime()
 {
+	s(coyote_time);
 	if (coyote_time > 0) coyote_time--;
 		
 	if (onGround())
