@@ -93,12 +93,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rTownLevel3","path":"rooms/rTownLevel3/rTownLevel3.yy",},},
     {"roomId":{"name":"rTownLevel1","path":"rooms/rTownLevel1/rTownLevel1.yy",},},
     {"roomId":{"name":"rTownLevel2","path":"rooms/rTownLevel2/rTownLevel2.yy",},},
+    {"roomId":{"name":"rTownLevel3","path":"rooms/rTownLevel3/rTownLevel3.yy",},},
+    {"roomId":{"name":"rTownLevel4","path":"rooms/rTownLevel4/rTownLevel4.yy",},},
     {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
-    {"roomId":{"name":"rTownLevel4","path":"rooms/rTownLevel4/rTownLevel4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
