@@ -10,10 +10,10 @@ term_vel = 4;
 jspd = -5.25;
 
 current_jumps = 0;
-max_jumps = 1;
+max_jumps = 0;
 
 coyote_time = 0;
-coyote_time_max = 3 * 60;
+coyote_time_max = 5;
 
 // Climbing
 climbing = false;
