@@ -1,5 +1,6 @@
 // Get Controls
 getControls();
+debugControls();
 
 // State Machine
 switch (state)
@@ -42,6 +43,9 @@ switch (state)
     break;
 
     case STATE.JUMP:
+	
+		// Disable coyote time once a jump is made
+	    if (jump_count == 1) coyote_time = coyote_time_max;
 	
 		// Set Sprites
 		setSpriteDirection();

@@ -14,6 +14,44 @@ function getControls()
 	interaction_key_pressed = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face3);
 }
 
+function debugControls()
+{
+	// Adding shards
+	if (keyboard_check(vk_up) and keyboard_check_pressed(ord("S")))
+	{
+		global.shards_collected++;
+		s("global.shards_collected: +" + string(global.shards_collected));
+	}
+	
+	// Deleting shards
+	if (keyboard_check(vk_down) and keyboard_check_pressed(ord("S")))
+	{
+		global.shards_collected--;
+		s("global.shards_collected: -" + string(global.shards_collected));
+	}
+	
+	// Adding max jumps
+	if (keyboard_check(vk_up) and keyboard_check_pressed(ord("J")))
+	{
+		max_jumps++;
+		s("max_jumps: +" + string(max_jumps));
+	}
+	
+	// Deleting max jumps
+	if (keyboard_check(vk_down) and keyboard_check_pressed(ord("J")))
+	{
+		max_jumps--;
+		s("max_jumps: -" + string(max_jumps));
+	}
+	
+	// Go to testing room
+	if (keyboard_check(vk_control) and keyboard_check_pressed(ord("T")))
+	{
+		room_goto(rGame);
+		s("Entering testing room...");
+	}
+}
+
 // Collision
 function xCollision()
 {
@@ -64,6 +102,9 @@ function yMovement()
 	
 	// Jump
 	jump();
+	
+	if (state == STATE.FALL and coyote_time == 0) jump_count++;
+	s(coyote_time);
 }
 
 function jump()
@@ -79,7 +120,7 @@ function jump()
 	        jump_count++;
         
 	        // Disable coyote time once a jump is made
-	        if (jump_count == 1) coyote_time = 0;
+	        if (jump_count == 1) coyote_time = coyote_time_max;
 	    }
 	}
 }
@@ -92,10 +133,9 @@ function playerMovement()
 	    // Reset coyote time when touching the ground
 	    coyote_time = coyote_time_max;
 	    jump_count = 0; // Reset jump count when on the ground
-	} 
-	else 
+	}
+	else
 	{
-		// Count down the coyote time if not on the ground
 		if (coyote_time > 0) coyote_time--;
 	}
 	
