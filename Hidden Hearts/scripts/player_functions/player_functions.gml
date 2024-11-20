@@ -8,10 +8,10 @@ function getControls()
 	down_key = keyboard_check(ord("S")) or (gamepad_axis_value(0, gp_axislv) > 0.5);
 	
 	// Action Inputs
-	jump_key_pressed = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face3);
+	jump_key_pressed = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1);
 	climb_key = keyboard_check(ord("Q")) or gamepad_button_check(0, gp_shoulderrb);
 	dash_key_pressed = keyboard_check_pressed(vk_shift) or gamepad_button_check(0, gp_shoulderrb);
-	interaction_key_pressed = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face1);
+	interaction_key_pressed = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face3);
 }
 
 // Collision
