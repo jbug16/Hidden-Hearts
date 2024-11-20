@@ -2,16 +2,16 @@
 function getControls()
 {
 	// Direction Inputs
-	right_key = keyboard_check(ord("D"));
-	left_key = keyboard_check(ord("A"));
-	up_key = keyboard_check(ord("W"));
-	down_key = keyboard_check(ord("S"));
+	right_key = keyboard_check(ord("D")) or (gamepad_axis_value(0, gp_axislh) > 0.5);
+	left_key = keyboard_check(ord("A")) or (gamepad_axis_value(0, gp_axislh) < -0.5);
+	up_key = keyboard_check(ord("W")) or (gamepad_axis_value(0, gp_axislv) < -0.5);
+	down_key = keyboard_check(ord("S")) or (gamepad_axis_value(0, gp_axislv) > 0.5);
 	
 	// Action Inputs
-	jump_key_pressed = keyboard_check_pressed(vk_space);
-	climb_key = keyboard_check(ord("Q"));
-	dash_key_pressed = keyboard_check_pressed(vk_shift);
-	interaction_key_pressed = keyboard_check_pressed(ord("E"));
+	jump_key_pressed = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face3);
+	climb_key = keyboard_check(ord("Q")) or gamepad_button_check(0, gp_shoulderrb);
+	dash_key_pressed = keyboard_check_pressed(vk_shift) or gamepad_button_check(0, gp_shoulderrb);
+	interaction_key_pressed = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face1);
 }
 
 // Collision
@@ -68,24 +68,36 @@ function yMovement()
 
 function jump()
 {
-	if (jump_key_pressed)
+	if (jump_key_pressed) 
 	{
-		if (jump_count < max_jumps)
+	    if ((jump_count == 0 && coyote_time > 0) || jump_count < max_jumps) 
 		{
-			// do jump
-			yspd = jspd;
-			
-			jump_count++;
-			//s(jump_count);
-		}
+	        // Perform the jump
+	        yspd = jspd;
+        
+	        // Increment jump count
+	        jump_count++;
+        
+	        // Disable coyote time once a jump is made
+	        if (jump_count == 1) coyote_time = 0;
+	    }
 	}
 }
 
 function playerMovement()
 {
 	// Coyote time
-	if (coyote_time > 0) coyote_time--;
-	s(coyote_time);
+	if (place_meeting(x, y + 1, oWall)) 
+	{
+	    // Reset coyote time when touching the ground
+	    coyote_time = coyote_time_max;
+	    jump_count = 0; // Reset jump count when on the ground
+	} 
+	else 
+	{
+		// Count down the coyote time if not on the ground
+		if (coyote_time > 0) coyote_time--;
+	}
 	
 	// X 
 	xMovement();

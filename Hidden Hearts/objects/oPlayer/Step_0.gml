@@ -65,11 +65,13 @@ switch (state)
 		{
 			state = STATE.IDLE;
 			jump_count = 0;
+			coyote_time = coyote_time_max;
 		}
 		else if (isWalking())
 		{
 			state = STATE.WALK;
 			jump_count = 0;
+			coyote_time = coyote_time_max;
 		}
         else if (isDashing()) state = STATE.DASH;
 		else if (isJumping()) state = STATE.JUMP;
