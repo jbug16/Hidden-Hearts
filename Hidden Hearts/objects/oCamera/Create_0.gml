@@ -1,5 +1,5 @@
 cam = view_camera[0];
-y = 235;
+y = 510;
 
 follow = oPlayer;
 
