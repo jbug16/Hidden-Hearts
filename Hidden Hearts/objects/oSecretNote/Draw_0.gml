@@ -27,5 +27,5 @@ if (is_interacting)
 	}
 	
 	draw_sprite(sNoteBackground, 0, _x_mid, _y_mid);
-	draw_text_ext(_x_mid, _y_mid, text[text_index], 14, 75);
+	draw_text_ext(_x_mid, _y_mid, text[text_index], 10, 75);
 }

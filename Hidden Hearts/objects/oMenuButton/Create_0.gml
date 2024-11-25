@@ -1,0 +1,6 @@
+enum MENU
+{
+	PLAY,
+	CREDITS,
+	QUIT
+}
