@@ -88,6 +88,7 @@
     {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},},
     {"id":{"name":"sPresent","path":"sprites/sPresent/sPresent.yy",},},
     {"id":{"name":"sSky","path":"sprites/sSky/sSky.yy",},},
+    {"id":{"name":"sSmoke","path":"sprites/sSmoke/sSmoke.yy",},},
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},
     {"id":{"name":"sTreesBack","path":"sprites/sTreesBack/sTreesBack.yy",},},
     {"id":{"name":"sTreesFront","path":"sprites/sTreesFront/sTreesFront.yy",},},
