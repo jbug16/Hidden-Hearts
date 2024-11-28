@@ -6,7 +6,7 @@ yspd = 0;
 
 // Jumping
 grav = 0.275;
-jspd = room == rTown ? -4 : -5.5;
+jspd = room == rTown ? -4.5 : -5.5;
 jump_count = 0;
 max_jumps = 1;
 
