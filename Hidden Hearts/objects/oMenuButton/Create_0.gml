@@ -4,3 +4,5 @@ enum MENU
 	CREDITS,
 	QUIT
 }
+
+target_scale = 1;
