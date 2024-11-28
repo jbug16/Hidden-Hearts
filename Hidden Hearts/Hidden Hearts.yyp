@@ -66,7 +66,7 @@
     {"id":{"name":"rTownLevel4","path":"rooms/rTownLevel4/rTownLevel4.yy",},},
     {"id":{"name":"npc_functions","path":"scripts/npc_functions/npc_functions.yy",},},
     {"id":{"name":"player_functions","path":"scripts/player_functions/player_functions.yy",},},
-    {"id":{"name":"seqMenu","path":"sequences/seqMenu/seqMenu.yy",},},
+    {"id":{"name":"seqMenuSlide","path":"sequences/seqMenuSlide/seqMenuSlide.yy",},},
     {"id":{"name":"sBackgroundTileset","path":"sprites/sBackgroundTileset/sBackgroundTileset.yy",},},
     {"id":{"name":"sBoucePad","path":"sprites/sBoucePad/sBoucePad.yy",},},
     {"id":{"name":"sChimney","path":"sprites/sChimney/sChimney.yy",},},
