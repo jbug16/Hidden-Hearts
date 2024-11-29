@@ -103,7 +103,6 @@ function yMovement()
 	jump();
 	
 	if (state == STATE.FALL and coyote_time == 0) jump_count++;
-	s(coyote_time);
 }
 
 function jump()
