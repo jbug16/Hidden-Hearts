@@ -33,6 +33,8 @@ if (abs(self.x - oPlayer.x) < 32)
 			if (next_key_pressed)
 			{
 				is_interacting = false;
+				// show arrow
+				if (layer_exists("Arrow")) layer_set_visible("Arrow", true);
 			}
 		}
 	}
