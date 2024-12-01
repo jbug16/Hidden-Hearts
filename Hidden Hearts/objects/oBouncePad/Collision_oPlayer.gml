@@ -1,0 +1,1 @@
+if (other.yspd < 0) sprite_index = sBouncePadJump;
