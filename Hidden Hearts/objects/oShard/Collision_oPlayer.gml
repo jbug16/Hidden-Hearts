@@ -1,5 +1,7 @@
 instance_destroy();
 
+audio_play_sound(sndCoin, 1, false);
+
 global.shards_collected++;
 s(global.shards_collected);
 

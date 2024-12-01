@@ -13,6 +13,7 @@ if (abs(self.x - oPlayer.x) < 32)
 	{
 		text_index = 0;
 		is_interacting = true;
+		audio_play_sound(sndClick, 1, false);
 	}
 	
 	// Check if player is interacting
@@ -24,6 +25,7 @@ if (abs(self.x - oPlayer.x) < 32)
 			if (next_key_pressed)
 			{
 				text_index++;
+				audio_play_sound(sndClick, 1, false);
 			}
 		}
 		// If on last index...
@@ -33,6 +35,7 @@ if (abs(self.x - oPlayer.x) < 32)
 			if (next_key_pressed)
 			{
 				is_interacting = false;
+				audio_play_sound(sndClick, 1, false);
 				// show arrow
 				if (layer_exists("Arrow")) layer_set_visible("Arrow", true);
 			}

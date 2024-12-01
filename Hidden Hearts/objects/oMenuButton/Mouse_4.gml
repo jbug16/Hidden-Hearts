@@ -12,3 +12,5 @@ switch (button)
 		game_end();
 		break;
 }
+
+audio_play_sound(sndClick, 1, false);

@@ -111,6 +111,7 @@ function jump()
 	{
 	    if ((jump_count == 0 && coyote_time > 0) || jump_count < max_jumps) 
 		{
+			audio_play_sound(sndJump, 1, false);
 	        // Perform the jump
 	        yspd = jspd;
         

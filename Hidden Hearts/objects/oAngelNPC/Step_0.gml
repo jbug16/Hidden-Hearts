@@ -15,6 +15,7 @@ if (instance_exists(oPlayer))
 		{
 			text_index = 0;
 			is_interacting = true;
+			audio_play_sound(sndClick, 1, false);
 		}
 	}
 }
@@ -28,6 +29,7 @@ if (is_interacting)
 		if (next_key_pressed)
 		{
 			text_index++;
+			audio_play_sound(sndClick, 1, false);
 		}
 	}
 	// If on last index...
@@ -37,6 +39,7 @@ if (is_interacting)
 		if (next_key_pressed)
 		{
 			is_interacting = false;
+			audio_play_sound(sndClick, 1, false);
 			if (!instance_exists(oTransitionFade)) fadeToRoom(rEndScreen, 180, c_black);
 		}
 	}
