@@ -127,7 +127,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
-    {"roomId":{"name":"rSchoolLevel2","path":"rooms/rSchoolLevel2/rSchoolLevel2.yy",},},
+    {"roomId":{"name":"rSchoolLevel3","path":"rooms/rSchoolLevel3/rSchoolLevel3.yy",},},
     {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rTownLevel1","path":"rooms/rTownLevel1/rTownLevel1.yy",},},
     {"roomId":{"name":"rTownLevel2","path":"rooms/rTownLevel2/rTownLevel2.yy",},},
@@ -135,7 +135,7 @@
     {"roomId":{"name":"rTownLevel4","path":"rooms/rTownLevel4/rTownLevel4.yy",},},
     {"roomId":{"name":"rSchool","path":"rooms/rSchool/rSchool.yy",},},
     {"roomId":{"name":"rSchoolLevel1","path":"rooms/rSchoolLevel1/rSchoolLevel1.yy",},},
-    {"roomId":{"name":"rSchoolLevel3","path":"rooms/rSchoolLevel3/rSchoolLevel3.yy",},},
+    {"roomId":{"name":"rSchoolLevel2","path":"rooms/rSchoolLevel2/rSchoolLevel2.yy",},},
     {"roomId":{"name":"rSchoolLevel4","path":"rooms/rSchoolLevel4/rSchoolLevel4.yy",},},
     {"roomId":{"name":"rPark","path":"rooms/rPark/rPark.yy",},},
     {"roomId":{"name":"rParkLevel1","path":"rooms/rParkLevel1/rParkLevel1.yy",},},
