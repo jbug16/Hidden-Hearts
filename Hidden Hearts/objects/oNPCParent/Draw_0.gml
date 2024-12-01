@@ -9,7 +9,8 @@ var _w_portrait = 50;
 var _h_portrait = 50;
 
 // Get coordinates
-var _x = ((camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) * 0.5) - _w/2) + 2 + (_w_portrait/2);
+var _x = ((camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) * 0.5) - _w/2);
+//var _x = ((camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) * 0.5) - _w/2) + 2 + (_w_portrait/2);
 var _y = 140;
 
 // Check if player is near NPC
@@ -23,7 +24,7 @@ if (abs(self.x - oPlayer.x) < 32)
 if (is_interacting)
 {
 	// Draw textbox
-	drawTextbox(_x, _y, _w, _h, _w_portrait, _h_portrait);
+	drawTextbox(_x, _y, _w, _h);
 
 	// Draw text
 	draw_set_halign(fa_left);
