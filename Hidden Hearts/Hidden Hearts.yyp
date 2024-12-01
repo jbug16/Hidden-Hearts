@@ -86,6 +86,7 @@
     {"id":{"name":"npc_functions","path":"scripts/npc_functions/npc_functions.yy",},},
     {"id":{"name":"player_functions","path":"scripts/player_functions/player_functions.yy",},},
     {"id":{"name":"seqMenuSlide","path":"sequences/seqMenuSlide/seqMenuSlide.yy",},},
+    {"id":{"name":"seqSummit","path":"sequences/seqSummit/seqSummit.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
     {"id":{"name":"sBackgroundTileset","path":"sprites/sBackgroundTileset/sBackgroundTileset.yy",},},
     {"id":{"name":"sBouncePadIdle","path":"sprites/sBouncePadIdle/sBouncePadIdle.yy",},},
