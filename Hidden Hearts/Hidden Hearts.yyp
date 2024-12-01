@@ -65,7 +65,6 @@
     {"id":{"name":"oTransitionDeath","path":"objects/oTransitionDeath/oTransitionDeath.yy",},},
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-    {"id":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"id":{"name":"rPark","path":"rooms/rPark/rPark.yy",},},
     {"id":{"name":"rParkLevel1","path":"rooms/rParkLevel1/rParkLevel1.yy",},},
@@ -162,7 +161,6 @@
     {"roomId":{"name":"rParkLevel3","path":"rooms/rParkLevel3/rParkLevel3.yy",},},
     {"roomId":{"name":"rParkLevel4","path":"rooms/rParkLevel4/rParkLevel4.yy",},},
     {"roomId":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
-    {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
