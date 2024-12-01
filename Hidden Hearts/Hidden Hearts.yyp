@@ -144,6 +144,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
+    {"roomId":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
     {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rTownLevel1","path":"rooms/rTownLevel1/rTownLevel1.yy",},},
     {"roomId":{"name":"rTownLevel2","path":"rooms/rTownLevel2/rTownLevel2.yy",},},
@@ -159,7 +160,6 @@
     {"roomId":{"name":"rParkLevel2","path":"rooms/rParkLevel2/rParkLevel2.yy",},},
     {"roomId":{"name":"rParkLevel3","path":"rooms/rParkLevel3/rParkLevel3.yy",},},
     {"roomId":{"name":"rParkLevel4","path":"rooms/rParkLevel4/rParkLevel4.yy",},},
-    {"roomId":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
   ],
   "templateType":"game",
