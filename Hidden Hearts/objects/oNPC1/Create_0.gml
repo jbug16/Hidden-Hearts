@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-text = ["This is a test.", "IUAGIUFGEIUFGE", "WHOOO yayayayay uiug iuwhg iwuef iughifuwge iugwef gwugfg."];
+text = ["The trees look so still today, like they're waiting for something.", "Funny how everything seems so quiet, but there's always something just under the surface."];
