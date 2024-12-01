@@ -206,7 +206,7 @@ function isInteracting()
 
 function isTransitioning()
 {
-	return instance_exists(oTransition);
+	return instance_exists(oTransitionBegin);
 }
 
 // Sprites
