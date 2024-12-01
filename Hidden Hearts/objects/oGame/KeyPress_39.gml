@@ -1,0 +1,1 @@
+if (room != rSummit and room != rMenu) room_goto_next();
