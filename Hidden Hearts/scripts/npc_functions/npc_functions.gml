@@ -10,7 +10,7 @@ function initProperties()
 
 function npcControls()
 {
-	next_key_pressed = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0, gp_face1);
+	next_key_pressed = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face1);
 	interaction_key_pressed = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face3);
 }
 
