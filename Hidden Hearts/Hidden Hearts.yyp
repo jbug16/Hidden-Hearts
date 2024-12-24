@@ -71,7 +71,6 @@
     {"id":{"name":"oTransitionBegin","path":"objects/oTransitionBegin/oTransitionBegin.yy",},},
     {"id":{"name":"oTransitionDeath","path":"objects/oTransitionDeath/oTransitionDeath.yy",},},
     {"id":{"name":"oTransitionFade","path":"objects/oTransitionFade/oTransitionFade.yy",},},
-    {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rEndScreen","path":"rooms/rEndScreen/rEndScreen.yy",},},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
