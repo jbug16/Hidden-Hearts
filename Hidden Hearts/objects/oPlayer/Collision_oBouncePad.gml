@@ -1,1 +1,2 @@
-if (yspd > 0) yspd = -8;
+yspd = -8;
+activateBounce(other);

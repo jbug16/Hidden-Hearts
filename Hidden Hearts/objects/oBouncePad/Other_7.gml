@@ -1,1 +1,5 @@
-sprite_index = sBouncePadIdle;
+if (sprite_index == sBouncePadJump)
+{
+    sprite_index = sBouncePadIdle;
+    bounce_active = false;
+}

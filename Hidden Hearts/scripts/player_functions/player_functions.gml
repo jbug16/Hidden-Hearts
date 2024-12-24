@@ -149,6 +149,20 @@ function playerMovement()
 	y += yspd;
 }
 
+function activateBounce(bounce_pad)
+{
+    if (!bounce_pad.bounce_active)
+    {
+        bounce_pad.bounce_active = true; // Mark as active
+
+        // Play the bounce sound
+        audio_play_sound(sndJump, 1, false);
+
+        // Change the sprite to the active state
+        bounce_pad.sprite_index = sBouncePadJump;
+    }
+}
+
 function setOnGround()
 {
 	
