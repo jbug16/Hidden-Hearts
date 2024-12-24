@@ -3,10 +3,13 @@ var _x_mid = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_came
 var _y_mid = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) * 0.5;
 
 // Check if player is near NPC
-if (abs(self.x - oPlayer.x) < 32)
+if (!is_interacting)
 {
-	// Show interaction button
-	draw_sprite(sInteractionBubble, 0, self.x, self.y - 24);
+	if (abs(self.x - oPlayer.x) < 32)
+	{
+		// Show interaction button
+		draw_sprite(sInteractionBubble, 0, self.x, self.y - 24);
+	}
 }
 
 // Check if interacting
