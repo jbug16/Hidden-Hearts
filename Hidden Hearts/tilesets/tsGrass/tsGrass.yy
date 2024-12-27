@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tsSpkies",
+  "%Name":"tsGrass",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tsSpkies",
-  "out_columns":4,
+  "name":"tsGrass",
+  "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"sGrassTileset",
+    "path":"sprites/sGrassTileset/sGrassTileset.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -31,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":66,
 }

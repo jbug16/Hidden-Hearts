@@ -195,7 +195,7 @@
     {"$GMRTileLayer":"","%Name":"SpikesTiles","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SpikesTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -78,-2147483648,1,9,-6,-2147483648,1,9,-200,-2147483648,-2,9,10,-2147483648,9,9,-2147483648,-2147483648,
           9,9,-2147483648,9,9,-212,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tsSpkies","path":"tilesets/tsSpkies/tsSpkies.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -108,-2147483648,1,1440,-6,-2147483648,1,1440,-22,-2147483648,4,1494,-2147483648,-2147483648,1168,-3,
           -2147483648,1,1494,-12,-2147483648,1,1165,-12,-2147483648,2,1439,1441,-5,-2147483648,1,1162,-8,-2147483648,
