@@ -13,7 +13,10 @@
     "name":"Managers",
     "path":"folders/Objects/Managers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oTransition",
+    "path":"objects/oTransition/oTransition.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

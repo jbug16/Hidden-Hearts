@@ -73,6 +73,7 @@
     {"id":{"name":"oSpikeRight","path":"objects/oSpikeRight/oSpikeRight.yy",},},
     {"id":{"name":"oSpikeUp","path":"objects/oSpikeUp/oSpikeUp.yy",},},
     {"id":{"name":"oTrail","path":"objects/oTrail/oTrail.yy",},},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oTransitionBegin","path":"objects/oTransitionBegin/oTransitionBegin.yy",},},
     {"id":{"name":"oTransitionDeath","path":"objects/oTransitionDeath/oTransitionDeath.yy",},},
     {"id":{"name":"oTransitionFade","path":"objects/oTransitionFade/oTransitionFade.yy",},},
