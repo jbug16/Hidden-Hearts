@@ -23,7 +23,7 @@ if (is_interacting)
 	// draw note
 	else if (oPlayer.state == STATE.INTERACTING)
 	{
-		draw_set_font(fntUI);
+		draw_set_font(fntText);
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_middle);
 		draw_set_color(c_black);

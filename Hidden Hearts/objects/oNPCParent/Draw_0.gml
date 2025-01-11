@@ -4,6 +4,7 @@ draw_self();
 var _w = 125;
 var _h = 50;
 var _buff = 5;
+var _line_spacing = 10;
 
 var _w_portrait = 50;
 var _h_portrait = 50;
@@ -33,6 +34,6 @@ if (is_interacting)
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 	draw_set_color(c_black);
-	draw_set_font(fntUI);
-	draw_text_ext(_x + _buff, _y, text[text_index], 10, _w - _buff);
+	draw_set_font(fntText);
+	draw_text_ext(_x + _buff, _y, text[text_index], _line_spacing, _w - _buff);
 }

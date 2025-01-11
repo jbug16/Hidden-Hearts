@@ -47,8 +47,7 @@
   },
   "name":"Hidden Hearts",
   "resources":[
-    {"id":{"name":"fntUI","path":"fonts/fntUI/fntUI.yy",},},
-    {"id":{"name":"fntUILarge","path":"fonts/fntUILarge/fntUILarge.yy",},},
+    {"id":{"name":"fntText","path":"fonts/fntText/fntText.yy",},},
     {"id":{"name":"oAngelNPC","path":"objects/oAngelNPC/oAngelNPC.yy",},},
     {"id":{"name":"oArrow","path":"objects/oArrow/oArrow.yy",},},
     {"id":{"name":"oBouncePad","path":"objects/oBouncePad/oBouncePad.yy",},},
