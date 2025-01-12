@@ -221,7 +221,7 @@ function isInteracting()
 
 function isTransitioning()
 {
-	return instance_exists(oTransitionBegin);
+	return instance_exists(oTransitionBegin) or instance_exists(oTransitionDeath);
 }
 
 // Sprites
