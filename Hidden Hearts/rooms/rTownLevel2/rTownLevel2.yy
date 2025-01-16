@@ -207,7 +207,7 @@
           40,-7,41,-5,60,3,61,0,0,-5,-2147483648,4,97,98,99,0,-5,-2147483648,1,40,-7,41,-2,-2147483648,-3,0,-2,
           -2147483648,4,0,78,80,-2147483648,-3,0,-2,-2147483648,-6,0,1,40,-7,41,3,-2147483648,0,0,-5,-2147483648,
           8,97,99,-2147483648,0,-2147483648,0,119,120,-3,-2147483648,4,0,119,25,26,-7,41,1,-2147483648,-8,0,-3,
-          -2147483648,-2,0,7,40,42,0,0,-2147483648,44,40,-9,41,-6,22,2,23,-2147483648,-6,0,7,40,42,-2147483648,
+          -2147483648,-2,0,7,40,42,0,0,-2147483648,0,40,-9,41,-6,22,2,23,-2147483648,-6,0,7,40,42,-2147483648,
           -2147483648,0,0,40,-15,41,2,27,28,-5,22,8,25,26,27,28,22,22,25,26,-9,41,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"GroundDecor","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GroundDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[-88,-2147483648,1,1165,-173,-2147483648,2,1167,1160,-19,-2147483648,1,1163,-54,-2147483648,1,1166,-85,-2147483648,1,1162,-85,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tsBackground","path":"tilesets/tsBackground/tsBackground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

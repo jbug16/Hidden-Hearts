@@ -199,20 +199,19 @@
             {"$GMRInstance":"v1","%Name":"inst_58267A34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58267A34","objectId":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.5,"x":304.0,"y":16.0,},
           ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
       ],"name":"Objs","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"GroundDecor","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GroundDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Ground","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[
+          -21,41,1,42,-16,98,-2,41,1,42,-16,-2147483648,-2,41,1,42,-16,-2147483648,-2,41,1,42,-9,-2147483648,1,
+          78,-6,79,-2,41,1,42,-4,-2147483648,2,21,23,-3,-2147483648,1,97,-6,98,-2,41,1,42,-4,-2147483648,3,40,
+          42,-2147483648,-3,0,-6,-2147483648,-2,41,1,42,-4,-2147483648,2,40,42,-3,-2147483648,-2,0,-5,-2147483648,
+          -2,41,1,42,-4,-2147483648,3,40,27,47,-9,-2147483648,-2,41,1,42,-4,-2147483648,3,40,41,42,-9,-2147483648,
+          -2,41,1,42,-4,-2147483648,5,40,41,27,28,23,-7,-2147483648,-2,41,6,42,-2147483648,78,80,-2147483648,59,
+          -3,60,1,61,-7,-2147483648,-2,41,4,42,-2147483648,97,99,-10,-2147483648,6,21,22,22,60,60,61,-13,-2147483648,
+          3,40,41,41,-8,-2147483648,1,21,-3,22,1,23,-3,-2147483648,3,40,41,41,-8,-2147483648,5,59,32,41,41,42,
+          -3,-2147483648,3,40,41,41,-4,22,1,23,-4,-2147483648,4,40,41,41,42,-3,-2147483648,3,40,41,41,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"GroundDecor","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GroundDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[
           -71,-2147483648,4,1166,-2147483648,-2147483648,1164,-8,-2147483648,1,1167,-58,-2147483648,1,1160,-39,
           -2147483648,1,1166,-42,-2147483648,1,1163,-32,-2147483648,1,1165,-28,-2147483648,1,1165,-35,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tsBackground","path":"tilesets/tsBackground/tsBackground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Ground","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[
-          -21,1494,1,1568,-16,-2147483648,-2,1494,1,1568,-16,-2147483648,-2,1494,1,1568,-16,-2147483648,-2,1494,
-          1,1568,-9,-2147483648,1,1439,-5,1440,4,1441,1494,1494,1568,-4,-2147483648,2,1439,1441,-10,-2147483648,
-          -2,1494,1,1568,-4,-2147483648,2,1562,1568,-10,-2147483648,-2,1494,1,1568,-4,-2147483648,2,1562,1568,
-          -10,-2147483648,-2,1494,1,1568,-4,-2147483648,3,1562,1495,1441,-9,-2147483648,-2,1494,1,1568,-4,-2147483648,
-          3,1562,1494,1568,-9,-2147483648,-2,1494,1,1568,-4,-2147483648,5,1562,1494,1495,1440,1441,-7,-2147483648,
-          -2,1494,4,1568,-2147483648,1439,1441,-13,-2147483648,-2,1494,1,1568,-13,-2147483648,3,1439,1440,1441,
-          -16,-2147483648,3,1562,1494,1568,-8,-2147483648,1,1439,-3,1440,1,1441,-3,-2147483648,3,1562,1494,1568,
-          -9,-2147483648,4,1562,1494,1494,1568,-3,-2147483648,4,1562,1494,1568,1439,-3,1440,1,1441,-4,-2147483648,
-          4,1562,1494,1494,1568,-3,-2147483648,3,1562,1494,1568,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tsBackground","path":"tilesets/tsBackground/tsBackground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesFront","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesFront","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[
           -26,-2147483648,3,1086,1087,1088,-16,-2147483648,3,1157,1158,1159,-16,-2147483648,3,1228,1229,1230,-16,
