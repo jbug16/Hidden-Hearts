@@ -111,15 +111,15 @@
       ],"name":"Objs","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"GroundDecor","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GroundDecor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -361,-2147483648,2,1165,1164,-3,-2147483648,1,1162,-3,-2147483648,3,1168,-2147483648,1163,-17,-2147483648,
-          13,1429,1431,1433,0,-2147483648,-2147483648,1431,1432,1432,1433,-2147483648,1501,1431,-3,1432,1,1433,
-          -13,-2147483648,6,1503,-2147483648,1430,1429,-2147483648,1501,-3,-2147483648,2,0,1430,-3,-2147483648,
-          1,1430,-16,-2147483648,2,0,1503,-3,0,3,1430,0,1500,-3,0,2,1429,1502,-16,-2147483648,1,1430,-3,-2147483648,
-          1,1500,-4,-2147483648,1,1501,-20,-2147483648,
+          13,0,1431,1433,0,-2147483648,-2147483648,1431,1432,1432,1433,-2147483648,1501,1431,-3,1432,1,1433,-13,
+          -2147483648,6,1503,-2147483648,1430,1429,-2147483648,1501,-3,-2147483648,2,0,1430,-3,-2147483648,1,1430,
+          -16,-2147483648,2,0,1503,-3,0,3,1430,0,1500,-3,0,2,1429,1502,-16,-2147483648,1,1430,-3,-2147483648,1,
+          1500,-4,-2147483648,1,1501,-20,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tsBackground","path":"tilesets/tsBackground/tsBackground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
-          -363,-2147483648,-4,0,-23,-2147483648,1,1439,-14,1440,1,1441,-14,-2147483648,1,1562,-14,1494,1,1568,
-          -14,-2147483648,1,1562,-14,1494,1,1568,-14,-2147483648,1,1562,-14,1494,1,1568,-14,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tsBackground","path":"tilesets/tsBackground/tsBackground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+          -363,-2147483648,-4,0,-23,-2147483648,-15,22,1,23,-14,-2147483648,-15,41,1,42,-14,-2147483648,-15,41,
+          1,42,-14,-2147483648,-15,41,1,42,-14,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tsGrass","path":"tilesets/tsGrass/tsGrass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesMid","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesMid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -330,-2147483648,11,1231,1232,1233,1234,1235,-2147483648,1231,1232,1233,1234,1235,-19,-2147483648,11,
           1302,1303,1304,1305,1306,-2147483648,1302,1303,1304,1305,1306,-97,-2147483648,6,1231,1232,1233,1234,
