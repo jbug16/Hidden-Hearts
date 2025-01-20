@@ -4,6 +4,6 @@ if (layer_exists("Arrow")) layer_set_visible("Arrow", false);
 
 shards_at_room_start = global.shards_collected;
 
-if (layer_exists("Transitions") and (room == rTown or room == rSchool or room == rPark or room == rSummit)) instance_create_layer(0, 0, "Transitions", oTransitionBegin);
+if (layer_exists("Transitions") and (room == rTown or room == rSchool or room == rPark or room == rSummit)) instance_create_layer(0, 0, "Transitions", oTransitionHeart);
 else if (layer_exists("Transitions")) instance_create_layer(0, 0, "Transitions", oTransitionDeath);
 //else if (layer_exists("Transitions")) instance_create_layer(0, 0, "Transitions", oTransitionDeath);

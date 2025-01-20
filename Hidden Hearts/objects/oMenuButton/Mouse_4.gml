@@ -5,15 +5,15 @@ switch (button)
 		break;
 		
 	case MENU.X:
-		url_open("https://x.com/jbug16games");
+		url_open_ext("https://x.com/jbug16games", "_blank");
 		break;
 		
 	case MENU.YOUTUBE:
-		url_open("https://www.youtube.com/@jbug_16");
+		url_open_ext("https://www.youtube.com/@jbug_16", "_blank");
 		break;
 	
 	case MENU.ITCH:
-		url_open("https://jbug16.itch.io/");
+		url_open_ext("https://jbug16.itch.io/", "_blank");
 		break;
 }
 

@@ -126,6 +126,8 @@ function jump()
 
 function playerMovement()
 {
+	if (state == STATE.TRANSITION) return;
+	
 	// Coyote time
 	if (place_meeting(x, y + 1, oWall)) 
 	{
@@ -166,62 +168,6 @@ function activateBounce(bounce_pad)
 function setOnGround()
 {
 	
-}
-
-// States
-function isIdle()
-{
-	return xspd == 0 && yspd == 0;
-}
-
-function isWalking()
-{
-	return xspd != 0 && yspd == 0;
-}
-
-function isJumping()
-{
-	return yspd < 0;
-}
-
-function isFalling()
-{
-	return yspd > 0;
-}
-
-function isClimbing()
-{
-	return climb_key && (place_meeting(x + 4, y, oWall) || place_meeting(x - 4, y, oWall));
-}
-
-function isDashing()
-{
-	
-}
-
-function isDead()
-{
-	return false;
-}
-
-function isInteracting()
-{
-	with (oNPCParent) {
-        if (is_interacting)
-            return true;
-    }
-
-    with (oSecretNote) {
-        if (is_interacting)
-            return true;
-    }
-
-    return false;
-}
-
-function isTransitioning()
-{
-	return instance_exists(oTransitionBegin) or instance_exists(oTransitionDeath);
 }
 
 // Sprites
