@@ -1,8 +1,9 @@
 enum MENU
 {
 	PLAY,
-	CREDITS,
-	QUIT
+	X,
+	YOUTUBE,
+	ITCH
 }
 
 target_scale = 1;

@@ -66,6 +66,7 @@
     {"id":{"name":"oPlayerDead","path":"objects/oPlayerDead/oPlayerDead.yy",},},
     {"id":{"name":"oSecretNote","path":"objects/oSecretNote/oSecretNote.yy",},},
     {"id":{"name":"oShard","path":"objects/oShard/oShard.yy",},},
+    {"id":{"name":"oSocialButton","path":"objects/oSocialButton/oSocialButton.yy",},},
     {"id":{"name":"oSpikeDown","path":"objects/oSpikeDown/oSpikeDown.yy",},},
     {"id":{"name":"oSpikeLeft","path":"objects/oSpikeLeft/oSpikeLeft.yy",},},
     {"id":{"name":"oSpikeParent","path":"objects/oSpikeParent/oSpikeParent.yy",},},
@@ -157,6 +158,7 @@
     {"id":{"name":"sSpikeLeft","path":"sprites/sSpikeLeft/sSpikeLeft.yy",},},
     {"id":{"name":"sSpikeRight","path":"sprites/sSpikeRight/sSpikeRight.yy",},},
     {"id":{"name":"sSpikeUp","path":"sprites/sSpikeUp/sSpikeUp.yy",},},
+    {"id":{"name":"sTest","path":"sprites/sTest/sTest.yy",},},
     {"id":{"name":"sTransitionSquare","path":"sprites/sTransitionSquare/sTransitionSquare.yy",},},
     {"id":{"name":"sTreesBack","path":"sprites/sTreesBack/sTreesBack.yy",},},
     {"id":{"name":"sTreesFront","path":"sprites/sTreesFront/sTreesFront.yy",},},
@@ -177,6 +179,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rEndScreen","path":"rooms/rEndScreen/rEndScreen.yy",},},
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"roomId":{"name":"rTownLevel1","path":"rooms/rTownLevel1/rTownLevel1.yy",},},
@@ -194,7 +197,6 @@
     {"roomId":{"name":"rParkLevel3","path":"rooms/rParkLevel3/rParkLevel3.yy",},},
     {"roomId":{"name":"rParkLevel4","path":"rooms/rParkLevel4/rParkLevel4.yy",},},
     {"roomId":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
-    {"roomId":{"name":"rEndScreen","path":"rooms/rEndScreen/rEndScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

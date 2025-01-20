@@ -4,12 +4,16 @@ switch (button)
 		room_goto(rTown);
 		break;
 		
-	case MENU.CREDITS:
-		room_goto(rCredits);
+	case MENU.X:
+		url_open("https://x.com/jbug16games");
 		break;
 		
-	case MENU.QUIT:
-		game_end();
+	case MENU.YOUTUBE:
+		url_open("https://www.youtube.com/@jbug_16");
+		break;
+	
+	case MENU.ITCH:
+		url_open("https://jbug16.itch.io/");
 		break;
 }
 
