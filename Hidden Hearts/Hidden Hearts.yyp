@@ -93,7 +93,6 @@
     {"id":{"name":"rSchoolLevel3","path":"rooms/rSchoolLevel3/rSchoolLevel3.yy",},},
     {"id":{"name":"rSchoolLevel4","path":"rooms/rSchoolLevel4/rSchoolLevel4.yy",},},
     {"id":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
-    {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"id":{"name":"rTown","path":"rooms/rTown/rTown.yy",},},
     {"id":{"name":"rTownLevel1","path":"rooms/rTownLevel1/rTownLevel1.yy",},},
     {"id":{"name":"rTownLevel2","path":"rooms/rTownLevel2/rTownLevel2.yy",},},
@@ -205,7 +204,6 @@
     {"roomId":{"name":"rParkLevel4","path":"rooms/rParkLevel4/rParkLevel4.yy",},},
     {"roomId":{"name":"rSummit","path":"rooms/rSummit/rSummit.yy",},},
     {"roomId":{"name":"rEndScreen","path":"rooms/rEndScreen/rEndScreen.yy",},},
-    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
