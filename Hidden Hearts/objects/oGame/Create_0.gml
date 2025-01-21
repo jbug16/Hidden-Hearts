@@ -8,3 +8,5 @@ shards_at_room_start = 0;
 
 // Play music
 audio_play_sound(sndMainTheme, 1, true);
+
+window_set_fullscreen(true);

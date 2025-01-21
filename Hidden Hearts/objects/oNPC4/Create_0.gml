@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-text = ["Hey, did you finish the homework? I totally forgot we had a quiz today.", "I don't get how people are just so sure of themselves? Like, how do they figure it all out?"];
+text = ["Hey, did you finish the homework? I completely forgot about the quiz today.", "Yeah, I don't get how people are so sure of themselves. How do they figure it out?"];

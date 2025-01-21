@@ -1,5 +1,10 @@
 draw_self();
 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_color(c_black);
+draw_set_font(fntText);
+
 // Set sizes
 var _w = 125;
 var _h = 50;
@@ -31,9 +36,5 @@ if (is_interacting)
 	drawTextbox(_x, _y, _w, _h);
 
 	// Draw text
-	draw_set_halign(fa_left);
-	draw_set_valign(fa_top);
-	draw_set_color(c_black);
-	draw_set_font(fntText);
 	draw_text_ext(_x + _buff, _y, text[text_index], _line_spacing, _w - _buff);
 }
